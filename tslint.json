@@ -29,15 +29,14 @@
       true,
       140
     ],
-    "member-access": false,
+    "member-access": true,
     "member-ordering": [
       true,
       {
         "order": [
-          "static-field",
-          "instance-field",
-          "static-method",
-          "instance-method"
+          "public-before-private",
+          "static-before-instance",
+          "variables-before-functions"
         ]
       }
     ],

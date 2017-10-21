@@ -1,27 +1,12 @@
-# SantaSolver
+# Santa Solver
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+A personal project to figure out who my Santa is in our annual family Secret Santa. There are exclusions (no spouses, can't have same people until everyone's had everyone...etc.)
 
-## Development server
+## How to use it
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Start with entering the name of everyone who is participating in your Secret Santa.
+Then start entering "exclusions" and "facts". Exclusions are people who cannot have each other. Facts are Santa and recipients you already know-- for example, you know who you have. (And you might know who your spouse has. And someone else may have let slip who they have.)
 
-## Code scaffolding
+## View Results
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You will be able to see a matrix indicating the possibilities right away.
